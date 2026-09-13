@@ -1,6 +1,11 @@
 window.FSN_FULL_GAMES = [
   { id:"ws2024-g1", title:"2024 World Series Game 1 — Yankees vs Dodgers", league:"MLB", season:2024, teams:["New York Yankees","Los Angeles Dodgers"], videoId:"gMm3EODDb6w", source:"MLB", fullGame:true },
   { id:"ws2024-g5", title:"2024 World Series Game 5 — Dodgers vs Yankees", league:"MLB", season:2024, teams:["Los Angeles Dodgers","New York Yankees"], videoId:"3Oc4S_1np98", source:"MLB", fullGame:true },
+  { id:"ws2025-g1", title:"2025 World Series Game 1 — Dodgers vs Blue Jays", league:"MLB", season:2025, teams:["Los Angeles Dodgers","Toronto Blue Jays"], videoId:"6BrK9Ep5M6o", source:"MLB", fullGame:true },
+  { id:"ws2025-g2", title:"2025 World Series Game 2 — Dodgers vs Blue Jays", league:"MLB", season:2025, teams:["Los Angeles Dodgers","Toronto Blue Jays"], videoId:"4qx-dm9VyVU", source:"MLB", fullGame:true },
+  { id:"ws2025-g4", title:"2025 World Series Game 4 — Blue Jays vs Dodgers", league:"MLB", season:2025, teams:["Toronto Blue Jays","Los Angeles Dodgers"], videoId:"l6-5sUsj9J4", source:"MLB", fullGame:true },
+  { id:"ws2025-g5", title:"2025 World Series Game 5 — Blue Jays vs Dodgers", league:"MLB", season:2025, teams:["Toronto Blue Jays","Los Angeles Dodgers"], videoId:"96gSTHfYz6s", source:"MLB", fullGame:true },
+  { id:"ws2025-g6", title:"2025 World Series Game 6 — Dodgers vs Blue Jays", league:"MLB", season:2025, teams:["Los Angeles Dodgers","Toronto Blue Jays"], videoId:"tc-kUUJEaDw", source:"MLB", fullGame:true },
   { id:"ws2025-g7", title:"2025 World Series Game 7 — Dodgers vs Blue Jays", league:"MLB", season:2025, teams:["Los Angeles Dodgers","Toronto Blue Jays"], videoId:"SU_bMo561b8", source:"MLB", fullGame:true },
   { id:"ws2019-g7", title:"2019 World Series Game 7 — Nationals vs Astros", league:"MLB", season:2019, teams:["Washington Nationals","Houston Astros"], videoId:"0KRR-HJXZNY", source:"MLB", fullGame:true },
   { id:"wbc2023-final", title:"2023 World Baseball Classic Final — USA vs Japan", league:"WBC", season:2023, teams:["United States","Japan"], videoId:"VUZPY2biqJU", source:"MLB / World Baseball Classic", fullGame:true },
