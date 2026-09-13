@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#071019">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>FSN — Full Game Sports Network</title>
+  <meta name="description" content="FSN is a synchronized professional sports channel built around full baseball and major-league games in three-hour windows, with a 5–6 PM highlights fallback.">
+  <link rel="canonical" href="https://www-infinity4.github.io/FSN/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FSN">
+  <meta property="og:title" content="FSN — The Game Is Already On">
+  <meta property="og:description" content="Professional baseball and major sports in synchronized three-hour game windows. Full games first; highlights only in the 5–6 PM fallback hour.">
+  <meta property="og:url" content="https://www-infinity4.github.io/FSN/">
+  <meta property="og:image" content="https://i.ytimg.com/vi/gMm3EODDb6w/maxresdefault.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FSN — Full Game Sports Network">
+  <meta name="twitter:description" content="Join the professional game at the exact moment airing now.">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/gMm3EODDb6w/maxresdefault.jpg">
+  <link rel="stylesheet" href="styles.css?v=20260913-fsn1">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#top"><span class="brand-mark">FSN</span><span>FULL GAME SPORTS NETWORK</span></a>
+    <div class="spacer"></div>
+    <div class="on-air"><i></i> LIVE</div>
+    <time id="clock">--:-- local</time>
+    <details class="channel-menu"><summary aria-label="Open channel remote">☰ <span>Channels</span></summary><nav data-channel-nav aria-label="Switch channels"></nav></details>
+  </header>
+
+  <main id="top">
+    <section class="theater">
+      <div class="marquee">
+        <div><p class="eyebrow" id="seasonLabel">PRO SPORTS</p><h1 id="nowTitle">Loading today’s FSN game…</h1><p id="nowMeta">Major and professional sports only.</p></div>
+        <div class="slot-time" id="slotTime">3-hour game window</div>
+      </div>
+      <div class="screen-shell">
+        <div id="player" aria-label="FSN video player"></div>
+        <div class="station-card" id="stationCard" hidden><strong id="stationCardTitle">FSN</strong><span id="stationCardText"></span></div>
+        <button class="enter" id="enter" type="button">Enter FSN<small>Join the full game at the exact point airing now</small></button>
+      </div>
+      <div class="controls">
+        <button id="startOver" type="button">Start over</button>
+        <button id="rewind" type="button">Rewind 30 sec</button>
+        <button class="live" id="joinLive" type="button">● Join live</button>
+        <a class="source-link" id="sourceLink" href="#" target="_blank" rel="noopener">Open source</a>
+        <button class="share" id="share" type="button">Share · +1/10 ⭐</button>
+        <span class="share-status" id="shareStatus" aria-live="polite"></span>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-meta"><span id="positionLabel">Synced FSN clock</span><span id="remainingLabel">-- remaining</span></div>
+        <div class="progress-track"><div id="progressBar"></div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><p>THE NEXT THREE WINDOWS</p><h2>Next on FSN</h2></div></div>
+      <div class="next-grid" id="nextCards"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><p>FULL GAMES · NEW DAILY LINEUP AT 12:00 AM VIEWER LOCAL TIME</p><h2>Today’s TV guide</h2></div></div>
+      <div class="guide-rows" id="guideRows"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><div><p>5:00–6:00 PM FALLBACK ONLY</p><h2>Today’s baseball highlights bench</h2></div><span>Used only if a full-game source needs filling</span></div>
+      <div class="highlight-list" id="highlightList"></div>
+    </section>
+  </main>
+
+  <section class="channel-directory"><nav data-channel-nav aria-label="All active channels"></nav></section>
+  <footer><strong>FSN · FULL GAME SPORTS NETWORK</strong><p>Major and professional sports only. Baseball is primary during baseball season. The schedule is rebuilt daily and reseeded every week; source failures do not reshuffle viewers onto different games.</p></footer>
+
+  <script src="data/catalog.js?v=20260913-fsn1"></script>
+  <script src="channels.js?v=20260913-fsn1"></script>
+  <script src="app.js?v=20260913-fsn1"></script>
+</body>
+</html>
